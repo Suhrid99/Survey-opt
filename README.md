@@ -67,16 +67,3 @@ A **1.35 buffer** is applied so randomness does not cause under-delivery.
 
 ---
 
-## Takeaway
-
-The **Smart Greedy** approach performs best. It guarantees delivery, respects the time constraint, and reduces required respondents by **83%** compared to the naive baseline.
-
-Same guarantees, fewer respondents, and much better cost efficiency.
-
----
-
-## How to Run
-
-```bash
-pip install pandas numpy
-python survey_optimizer.py
